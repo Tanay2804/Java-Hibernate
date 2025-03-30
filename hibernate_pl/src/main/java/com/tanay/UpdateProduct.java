@@ -28,7 +28,7 @@ public class UpdateProduct {
         if (product != null) {
             product.setName("Updated Laptop");
             product.setPrice(899.99);
-            session.persist(product);
+            session.merge(product);
         } else {
             System.out.println("Product with ID " + productId + " not found.");
         }

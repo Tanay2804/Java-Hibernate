@@ -19,7 +19,7 @@ public class jdbc_update {
             String newDesignation = "Senior Developer";
 
             // Check if an employee with the given id exists.
-            String selectSQL = "SELECT * FROM employees WHERE id = ?";
+            String selectSQL = "SELECT * FROM Employees WHERE id = ?";
             PreparedStatement selectStmt = connection.prepareStatement(selectSQL, 
                     ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY);
             selectStmt.setInt(1, employeeId);

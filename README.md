@@ -38,3 +38,6 @@ FLUSH PRIVILEGES;
 
 Refer git logs for JDBC to Hibernete Migration
 connectors for jdbc and hibernate are located or were located in /lib
+
+For hibernate jars:
+`https://mvnrepository.com/artifact/org.hibernate/hibernate-core`
